@@ -1,0 +1,6 @@
+a=input("enter the string:")
+b=[]
+for char in a:
+    if char not in b:
+        b.append(char)
+print(len(b))
